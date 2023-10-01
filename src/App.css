@@ -1,0 +1,36 @@
+
+
+.parent{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+.child{
+    margin: auto;
+}
+h2{
+    font-size: 45px;
+
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #222;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+button:hover{
+    background-color: #666;
+}
